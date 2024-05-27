@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6653b0a5294201b55dfd3429"
+  },
+  "Name": "Oemer Burak Adanir",
+  "Adresse": "Dorfstrasse 123",
+  "PLZ": 8303,
+  "Geburtsdatum": {
+    "$date": "2005-07-23T00:00:00.000Z"
+  }
+}]
