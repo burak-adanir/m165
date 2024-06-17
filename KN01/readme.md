@@ -72,3 +72,5 @@ Probleme können sein wenn man z.B. nach Datumsobjekten in einer collection such
 3. `use collection-name;`: Wechselt zur genannten Datenbank.
 4. `show collections;`: Listet alle Collections in der aktuellen Datenbank auf.
 5. `show tables;`: Listet alle Tabellen in der aktuellen Datenbank auf.
+
+`show collections;` sind aliasse `show tables;`

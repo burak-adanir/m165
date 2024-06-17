@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "666e31de55bd385660588892"
+  },
+  "name": "Michael Jordan",
+  "birth_date": {
+    "$date": "2000-12-12T00:00:00.000Z"
+  },
+  "nationality": "Swiss",
+  "rent_duration_hours": 48,
+  "payments": [
+    {
+      "amount": 150,
+      "due_date": {
+        "$date": "2024-06-20T00:00:00.000Z"
+      },
+      "car": [
+        {
+          "$oid": "666e31de55bd385660588895"
+        }
+      ]
+    },
+    {
+      "amount": 50,
+      "due_date": {
+        "$date": "2024-06-23T00:00:00.000Z"
+      },
+      "car": [
+        {
+          "$oid": "666e31de55bd385660588898"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666e31de55bd385660588893"
+  },
+  "name": "Stephen Currz",
+  "birth_date": {
+    "$date": "2000-12-12T00:00:00.000Z"
+  },
+  "nationality": "Swiss",
+  "rent_duration_hours": 72,
+  "payments": [
+    {
+      "amount": 150,
+      "due_date": {
+        "$date": "2024-06-21T00:00:00.000Z"
+      },
+      "car": [
+        {
+          "$oid": "666e31de55bd385660588896"
+        }
+      ]
+    },
+    {
+      "amount": 50,
+      "due_date": {
+        "$date": "2024-06-24T00:00:00.000Z"
+      },
+      "car": [
+        {
+          "$oid": "666e31de55bd385660588895"
+        },
+        {
+          "$oid": "666e31de55bd385660588897"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "666e31de55bd385660588894"
+  },
+  "name": "Lebron James",
+  "birth_date": {
+    "$date": "2000-12-12T00:00:00.000Z"
+  },
+  "nationality": "Swiss",
+  "rent_duration_hours": 24,
+  "payments": [
+    {
+      "amount": 100,
+      "due_date": {
+        "$date": "2024-06-21T00:00:00.000Z"
+      },
+      "car": [
+        {
+          "$oid": "666e31de55bd385660588897"
+        }
+      ]
+    }
+  ]
+}]

@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2024-06-16T00:01:20.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QwjXT4eeWsUJsPjtbstu" version="24.5.4" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1167" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="okeQuhRjU0sepMCW8s6a-1" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="okeQuhRjU0sepMCW8s6a-2" value="Car" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="okeQuhRjU0sepMCW8s6a-4" value="Payment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="okeQuhRjU0sepMCW8s6a-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="okeQuhRjU0sepMCW8s6a-4" target="okeQuhRjU0sepMCW8s6a-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okeQuhRjU0sepMCW8s6a-6" value="&lt;div&gt;1:m&lt;/div&gt;Customer to Payment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="okeQuhRjU0sepMCW8s6a-5" vertex="1" connectable="0">
+          <mxGeometry x="0.2571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okeQuhRjU0sepMCW8s6a-7" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="okeQuhRjU0sepMCW8s6a-2" target="okeQuhRjU0sepMCW8s6a-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="okeQuhRjU0sepMCW8s6a-8" value="m:m&lt;div&gt;Customer to Car&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="okeQuhRjU0sepMCW8s6a-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.0308" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-6" value="Fuel-Type" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="599.5" y="340" as="sourcePoint" />
+            <mxPoint x="599.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-8" value="&lt;div&gt;1:m&lt;/div&gt;Car to Fuel-Type" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iK-tNwz-UCV-Oxqi4ocs-7" vertex="1" connectable="0">
+          <mxGeometry x="0.2571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-12" value="Customer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="450" width="150" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iK-tNwz-UCV-Oxqi4ocs-12" source="iK-tNwz-UCV-Oxqi4ocs-13" target="iK-tNwz-UCV-Oxqi4ocs-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-13" value="&lt;div&gt;- id: int&lt;/div&gt;- name: string&amp;nbsp;&lt;br&gt;- birth_date: date&lt;div&gt;- nationality: string&lt;br&gt;&lt;div&gt;- rent_duration_hours: int&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="iK-tNwz-UCV-Oxqi4ocs-12" vertex="1">
+          <mxGeometry y="50" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-10" value="Payment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=46;whiteSpace=wrap;html=1;" parent="iK-tNwz-UCV-Oxqi4ocs-12" vertex="1">
+          <mxGeometry y="220" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-11" value="&lt;div&gt;- amount: double&lt;/div&gt;- due_date: date&lt;div&gt;- car:Array&amp;lt;car&amp;gt;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="iK-tNwz-UCV-Oxqi4ocs-10" vertex="1">
+          <mxGeometry y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-14" value="Car" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="490" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-15" value="&lt;div&gt;- brand: string&lt;/div&gt;&lt;div&gt;- model: string&lt;/div&gt;- model_year: int&amp;nbsp;&lt;div&gt;- fuel_info:Array&amp;lt;fuel_info&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="iK-tNwz-UCV-Oxqi4ocs-14" vertex="1">
+          <mxGeometry y="50" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-16" value="Fuel-Info" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="600" width="160" height="90" as="geometry">
+            <mxRectangle y="150" width="160" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-17" value="&lt;div&gt;- consumption_in: string&lt;/div&gt;&lt;div&gt;- fuel_type: string&lt;/div&gt;&lt;div&gt;- fuel_price: double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="iK-tNwz-UCV-Oxqi4ocs-16" vertex="1">
+          <mxGeometry y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-40" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=0;entryX=-0.011;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.982;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="iK-tNwz-UCV-Oxqi4ocs-12" target="iK-tNwz-UCV-Oxqi4ocs-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="640" as="sourcePoint" />
+            <mxPoint x="230" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKdWVTPo1guB0uvRhyKG-1" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=0;entryX=-0.011;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.982;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="540" as="sourcePoint" />
+            <mxPoint x="691" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
