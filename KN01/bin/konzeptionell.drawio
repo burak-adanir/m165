@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T14:03:41.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3LQ-S81V_FMHIweEVoUp" version="24.6.2" type="device">
+<mxfile host="app.diagrams.net" modified="2024-06-24T14:05:35.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="nY1KgRcCx3-D5JmxjbGa" version="24.6.2" type="device">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1050" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="iK-tNwz-UCV-Oxqi4ocs-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iK-tNwz-UCV-Oxqi4ocs-12" source="iK-tNwz-UCV-Oxqi4ocs-13" target="iK-tNwz-UCV-Oxqi4ocs-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-13" value="&lt;div&gt;- id: int&lt;/div&gt;- name: string&amp;nbsp;&lt;br&gt;- birth_date: date&lt;div&gt;- nationality: string&lt;br&gt;&lt;div&gt;- rent_duration_hours: int ¨&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- car:Array&amp;lt;car&amp;gt;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="iK-tNwz-UCV-Oxqi4ocs-12" vertex="1">
+        <mxCell id="iK-tNwz-UCV-Oxqi4ocs-13" value="&lt;div&gt;- id: int&lt;/div&gt;- name: string&amp;nbsp;&lt;br&gt;- birth_date: date&lt;div&gt;- nationality: string&lt;br&gt;&lt;div&gt;- rent_duration_hours: int ¨&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- car:Array&amp;lt;payment&amp;gt;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="iK-tNwz-UCV-Oxqi4ocs-12" vertex="1">
           <mxGeometry y="50" width="150" height="170" as="geometry" />
         </mxCell>
         <mxCell id="iK-tNwz-UCV-Oxqi4ocs-10" value="Payment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=46;whiteSpace=wrap;html=1;" parent="iK-tNwz-UCV-Oxqi4ocs-12" vertex="1">
