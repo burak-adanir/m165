@@ -106,6 +106,31 @@ rence=primary&ssl=false&directConnection=true" "./dump"
 
 ### C: Skalierung (20%)
 
+#### Replikation:
+
+Daten werden auf mehrere Servern dupliziert, bzw repliziert mit Replica-Sätzen, um hohe Verfügbarkeit und Datenredundanz sicherzustellen. So kann ein Server wenn es ausfällt von anderen Servern die Daten beziehen um auf dem neusten Stand zu sein.
+
+
+![Image of Database Scaling](https://static-assets.codecademy.com/Courses/Backend-Backfill/ART-1491-Database-Scaling-3.svg)
+
+[Source: Codecademy](https://static-assets.codecademy.com/Courses/Backend-Backfill/ART-1491-Database-Scaling-3.svg)
+
+#### Partitionierung (Sharding):
+
+Prozess bei dem grosse Datenmengen auf aufgeteilt auf mehrern Servern, sogenannte Shards gespeichert werden. Damit wird auch die Last und der Speicherbedarf zwischen den Servern aufgeteilt.
+
+
 ![Image of Database Backup](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*tOAcT4T5Rdg6Fx5z.png)
 
 [Source: Medium](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*tOAcT4T5Rdg6Fx5z.png)
+
+#### Empfehlung an Firma (Bank):
+
+
+Situation:
+Die Bank benutzt MongoDB für eine Applikation, die Kundendaten, Kontostände und Transaktionshistorien speichert und verarbeitet für die Kunden. Im Moment ist diese Applikation auf einem einzelnen MongoDB-Server, was zu Performance-Engpässen führt und bei Ausfall des Servers zu einem Datenverlust oder Unterbrechung in der App führen kann.
+
+Empfehlung:
+Ich würde einer Bank die Replication als Skalierungsmethode empfehlen. Somit kann auch bei Ausfall von Servern/Applikationen sichergestellt werden, dass z.B. Kundendaten, Kontostände und Transaktionen verfügbar und konsistent sind. So kann im Falle eines Ausfalls keine Daten verloren gehen und der Betrieb der Dienste der Bank ohne Unterbrechung weiterlaufen.
+
+
