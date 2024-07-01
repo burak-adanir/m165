@@ -52,6 +52,10 @@ Screenshot für das Schreiben von Daten mit Fehler.
 Screenshot für das Einloggen (Verbindungstext sichtbar)
 Screenshot für das Lesen von Daten ohne Fehler
 
+```
+mongosh "mongodb://user1:1234@107.23.89.109:27017/?authSource=carRental&readPreference=primary&ssl=false"
+```
+
 ![IMG](./bin/successfullLoginandRead.png)
 
 Screenshot für das Schreiben von Daten ohne Fehler.
@@ -72,6 +76,9 @@ Screenshot für das Schreiben von Daten ohne Fehler.
 
 ![IMG](./bin/variante1recovered.png)
 
+![IMG](./bin/recoveredthedumpkn05B.png)
+
+
 
 #### Backup Variante 2:
 
@@ -87,9 +94,18 @@ ce=primary&ssl=false&directConnection=true" --db=carRental --out "/home/ubuntu/d
 
 ![IMG](./bin/recoveredthedumpkn05B.png)
 
-![IMG](./bin/.png)
+![IMG](./bin/afterrecoverzevytignhere.png)
 
+```
+sudo mongorestore --uri="mongodb://user2:1234@107.23.89.109:27017/?authSource=admin&readPrefe
+rence=primary&ssl=false&directConnection=true" "./dump"
+```
 
+![IMG](./bin/proofkn05bfinal.png)
 
 
 ### C: Skalierung (20%)
+
+![Image of Database Backup](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*tOAcT4T5Rdg6Fx5z.png)
+
+[Source: Medium](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*tOAcT4T5Rdg6Fx5z.png)
