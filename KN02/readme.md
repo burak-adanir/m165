@@ -2,7 +2,7 @@
 
 ### A) Konzeptionelles Datenmodell (40%)
 
-![Image](./bin/drawio1.png)
+![Image](./bin/correctedbasice.png)
 
 
 <b>Kurze textuelle Erklärungen zu den Entitäten und Beziehungen.</b>
@@ -23,7 +23,7 @@ Beziehungen:
 ### B) Logisches Modell für MongoDB (50%)
 
 
-![Image](./bin/Screensho02620122.png)
+![Image](./bin/correctedspecialnpng.png)
 
 <b>Erklärung zu Verschachtelungen. wieso haben Sie Ihre Variante gewählt.</b>
 
