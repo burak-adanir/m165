@@ -90,16 +90,19 @@ ce=primary&ssl=false&directConnection=true" --db=carRental --out "/home/ubuntu/d
 
 ![IMG](./bin/variante2erstebild.png)
 
+![IMG](./bin/recoveredthedumpkn05B.png)
+
 ![IMG](./bin/droppeddatabase.png)
 
 ![IMG](./bin/recoveredthedumpkn05B.png)
-
-![IMG](./bin/afterrecoverzevytignhere.png)
 
 ```
 sudo mongorestore --uri="mongodb://user2:1234@107.23.89.109:27017/?authSource=admin&readPrefe
 rence=primary&ssl=false&directConnection=true" "./dump"
 ```
+
+![IMG](./bin/afterrecoverzevytignhere.png)
+
 
 ![IMG](./bin/proofkn05bfinal.png)
 
