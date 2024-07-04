@@ -1,0 +1,119 @@
+CREATE 
+
+  // FuelInfo
+  (fuelInfo1:FuelInfo {
+    id: "fuelInfo1", 
+    consumption_in: "l/100km", 
+    fuel_type: "Benzin", 
+    fuel_price: 1.88
+  }),
+  (fuelInfo2:FuelInfo {
+    id: "fuelInfo2", 
+    consumption_in: "l/100km", 
+    fuel_type: "Diesel", 
+    fuel_price: 1.91
+  }),
+  (fuelInfo3:FuelInfo {
+    id: "fuelInfo3", 
+    consumption_in: "kWh/100km", 
+    fuel_type: "Elektro", 
+    fuel_price: 0.32
+  }),
+
+  // Car
+  (car1:Car {
+    id: "car1", 
+    brand: "BMW", 
+    model: "M3", 
+    model_year: 2022, 
+    consumption: 9.5, 
+    hourly_rate: 50.0
+  }),
+  (car2:Car {
+    id: "car2", 
+    brand: "Volkswagen", 
+    model: "Golf", 
+    model_year: 2019, 
+    consumption: 5.0, 
+    hourly_rate: 20.0
+  }),
+  (car3:Car {
+    id: "car3", 
+    brand: "Tesla", 
+    model: "Model 3", 
+    model_year: 2019, 
+    consumption: 15.0, 
+    hourly_rate: 20.0
+  }),
+  (car4:Car {
+    id: "car4", 
+    brand: "BMW", 
+    model: "M2", 
+    model_year: 2022, 
+    consumption: 9.5, 
+    hourly_rate: 50.0
+  }),
+
+  // Customer
+  (customer1:Customer {
+    id: "customer1", 
+    name: "Michael Jordan", 
+    birth_date: date("2000-12-12"), 
+    nationality: "Swiss", 
+    rent_duration_hours: 48
+  }),
+  (customer2:Customer {
+    id: "customer2", 
+    name: "Stephen Curry", 
+    birth_date: date("2000-12-12"), 
+    nationality: "Swiss", 
+    rent_duration_hours: 72
+  }),
+  (customer3:Customer {
+    id: "customer3", 
+    name: "Lebron James", 
+    birth_date: date("2000-12-12"), 
+    nationality: "Swiss", 
+    rent_duration_hours: 24
+  }),
+
+  // Payment
+  (payment1:Payment {
+    amount: 150.00, 
+    due_date: date("2024-06-20")
+  }),
+  (payment2:Payment {
+    amount: 50.00, 
+    due_date: date("2024-06-23")
+  }),
+  (payment3:Payment {
+    amount: 150.00, 
+    due_date: date("2024-06-21")
+  }),
+  (payment4:Payment {
+    amount: 50.00, 
+    due_date: date("2024-06-24")
+  }),
+  (payment5:Payment {
+    amount: 100.00, 
+    due_date: date("2024-06-21")
+  }),
+
+
+  // Relations
+  (car1)-[:HAS_FUEL_INFO]->(fuelInfo1),
+  (car2)-[:HAS_FUEL_INFO]->(fuelInfo2),
+  (car3)-[:HAS_FUEL_INFO]->(fuelInfo3),
+  (car4)-[:HAS_FUEL_INFO]->(fuelInfo1),
+
+  (customer1)-[:HAS_PAYMENT]->(payment1),
+  (customer1)-[:HAS_PAYMENT]->(payment2),
+  (customer2)-[:HAS_PAYMENT]->(payment3),
+  (customer2)-[:HAS_PAYMENT]->(payment4),
+  (customer3)-[:HAS_PAYMENT]->(payment5),
+
+  (customer1)-[:RENTS]->(car1),
+  (customer1)-[:RENTS]->(car4),
+  (customer2)-[:RENTS]->(car2),
+  (customer2)-[:RENTS]->(car1),
+  (customer3)-[:RENTS]->(car3)

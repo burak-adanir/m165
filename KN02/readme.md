@@ -23,7 +23,7 @@ Beziehungen:
 ### B) Logisches Modell für MongoDB (50%)
 
 
-![Image](./bin/correctedspecialnpng.png)
+![Image](./bin/fertig.png)
 
 <b>Erklärung zu Verschachtelungen. wieso haben Sie Ihre Variante gewählt.</b>
 
