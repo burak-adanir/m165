@@ -1,7 +1,7 @@
 # KN08: Datenabfrage und -Manipulation 
 ## A) Daten hinzufügen (20%)
 
-[Script](.txt)
+[Script](bin/neo4j_insert.txt)
 
 ## B) Daten abfragen (20%)
 
