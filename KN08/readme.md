@@ -82,7 +82,7 @@ MATCH (customer:Customer {name: "Lebron James"})
 DETACH DELETE customer
 ```
 
-Nun aber mit ``` DETACH ``` zusätzlich funktioniert es, denn dieser löst bevor dem löschen des Node, die vorhandenen Beziehungen. 
+Nun aber mit ``` DETACH ``` zusätzlich funktioniert es, denn dieser löst bevor dem löschen des Nodes die vorhandenen Beziehungen auf (bzw löscht). 
 ![IMG](./bin/succesfulldelete.png)
 
 ## D) Daten verändern (20%)
